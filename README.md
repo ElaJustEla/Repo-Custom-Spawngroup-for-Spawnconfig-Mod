@@ -1,4 +1,4 @@
-# Repo-Custom-Spawngroup-for-Spawnconfig-Mod
+# 🎮Repo-Custom-Spawngroup-for-Spawnconfig-Mod
 Notice:
 Due to current limitations, events capped with levels will not function properly beyond level 9999.
 
