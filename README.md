@@ -5,6 +5,7 @@
 - [📝 Information](#-information)
 - [📦 Setup](#-setup)
 - [❌ Removal](#-removal)
+- [🧰 Additional Mods Recommendations](#-additional-mods-recommendations)
 - [🌐 Global Changes](#-global-changes)
 - [🔥 Challenge Events](#-challenge-events)
 - [📅 Events](#-events)
@@ -14,6 +15,7 @@
 - [📝 信息](#-信息)
 - [📦 安装](#-安装)
 - [❌ 卸载](#-卸载)
+- [🧰 额外模组推荐](#-额外模组推荐)
 - [🌐 全局更改](#-全局更改)
 - [🔥 挑战事件](#-挑战事件)
 - [📅 普通事件](#-普通事件)
@@ -26,7 +28,7 @@
 
 ## 📝 Information
 
-⚠️Notice:
+⚠️Notice
 Due to current limitations, events capped with levels will not function properly beyond level 9999.
 
 🚫Warning for New Players:
@@ -47,13 +49,32 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
 - ⇒ BepInEx\config\SpawnConfig
 
 ## ❌ Removal
+
 - Delete the current **SpawnGroup.json** from
    - ⇒ BepInEx\config\SpawnConfig
 - Restore the default file by *copying* **SpawnGroup.json** from
    - ⇒ BepInEx\config\SpawnConfig\Defaults into
    - ⇒ BepInEx\config\SpawnConfig
 
-## 🌐 Global Changes:
+## 🧰 Additional Mods Recommendations
+
+These additional mods help balance the increased difficulty introduced by this config.
+
+- [**BeplnExPack by BepInEx**](https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/):
+   - A required framework for some of the following mods.
+- [**REPOLib by Zehs**](https://thunderstore.io/c/repo/p/Zehs/REPOLib/)
+   - A dependency required by **MoreShopItems**.
+- [**MoreShopItems by GalaxyMods**](https://thunderstore.io/c/repo/p/GalaxyMods/MoreShopItems/)
+   - Adds more purchasable items to shops, allowing players to upgrade to 13 Strength more quickly
+- [**Shop Items Spawn in Level by itsUndefined**](https://thunderstore.io/c/repo/p/itsUndefined/Shop_Items_Spawn_in_Level/)
+   - Enables shop items to spawn within levels, letting players obtain upgrades without replying solely on shops.
+- [**JustRetry by nickklmao**](https://thunderstore.io/c/repo/p/nickklmao/JustRetry/) or,
+- [**JustRetryPlus by Xaru**](https://thunderstore.io/c/repo/p/Xaru/JustRetryPlus/)
+   - Prevents full progress loss upon death.
+      - **JustRetry**: Restores health to 100 after dying.
+      - **JustRetryPlus**: Fully restores health after death.
+
+## 🌐 Global Changes
 1. If an enemy type is defaultly selected, up to **three instances** of that entity group will spawn.
 2. In addition to the global rule above, from **level 11 onwards**:
    1. All enemies are guaranteed to appear in each level.
@@ -63,7 +84,7 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
 
 📌 **Note:** **once a Challenge Event/ Event is triggered**, no other enemy types will spawn beyond the event specifications.
 
-## 🔥 Challenge Events:
+## 🔥 Challenge Event
 
 ℹ️ *All Challenge Events will have a chance to trigger from level 12.*
 
@@ -80,7 +101,7 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
    - An additional chance to double again.
    - ⇒ Level 2 enemies may spawn **up to 6 instances per group**.
 
-## 📅 Events:
+## 📅 Events
 
 ℹ️ *All Events are available from all levels.*
 
@@ -146,7 +167,29 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
   - ⇒ 将 BepInEx\config\SpawnConfig\Defaults 中的 **SpawnGroup.json**
   - ⇒ *复制* 到 BepInEx\config\SpawnConfig 中
 
-## 🌐 全局更改：
+## 🧰 额外模组推荐
+
+以下模组有助于平衡本配置带来的高难度挑战，建议搭配使用：
+
+- [**BepInExPack by BepInEx**](https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/)  
+  - 某些下列模组运行所需的基础框架。
+
+- [**REPOLib by Zehs**](https://thunderstore.io/c/repo/p/Zehs/REPOLib/)  
+  - **MoreShopItems** 模组的依赖框架。
+
+- [**MoreShopItems by GalaxyMods**](https://thunderstore.io/c/repo/p/GalaxyMods/MoreShopItems/)  
+  - 为商店添加更多可购买的物品，帮助玩家更快提升到 13 点力量。
+
+- [**Shop Items Spawn in Level by itsUndefined**](https://thunderstore.io/c/repo/p/itsUndefined/Shop_Items_Spawn_in_Level/)  
+  - 让商店物品直接在关卡中生成，使玩家不必完全依赖商店即可获取升级道具。
+
+- [**JustRetry by nickklmao**](https://thunderstore.io/c/repo/p/nickklmao/JustRetry/) 或  
+- [**JustRetryPlus by Xaru**](https://thunderstore.io/c/repo/p/Xaru/JustRetryPlus/)  
+  - 阻止死亡后丢失全部进度。  
+    - **JustRetry**：死亡后将生命值恢复至 100点数。  
+    - **JustRetryPlus**：死亡后将生命值完全恢复。
+
+## 🌐 全局更改
 
 1. 在原始规则下，若游戏选择某类敌人，则最多会生成该组敌人的**最多三倍数量**。
 2. 在以上规则的基础上，从 **第 11 级起**：
@@ -157,7 +200,7 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
 
 📌 **注意：** 一旦**挑战事件或普通事件被触发**，其设定范围外的敌人将不再生成。
 
-## 🔥 挑战事件：
+## 🔥 挑战事件
 
 ℹ️ *所有挑战事件将在第 12 级开始有机会触发。*
 
@@ -176,7 +219,7 @@ This modification require the mod [**SpawnConfig** by Index154](https://thunders
    - 有额外几率再次翻倍。
    - ⇒ 每种 2 级敌人最多可生成 **6 个**。
 
-## 📅 普通事件：
+## 📅 普通事件
 
 ℹ️ *所有事件从任意等级开始都可能触发。*
 
