@@ -589,7 +589,7 @@
   },
   {
     "name": "Standard - All Enemies Present",
-    "levelsCompletedCondition": false,
+    "levelsCompletedCondition": true,
     "levelsCompletedMax": 9999,
     "levelsCompletedMin": 12,
     "runsPlayed": 0,
