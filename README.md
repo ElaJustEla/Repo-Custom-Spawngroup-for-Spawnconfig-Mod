@@ -1,13 +1,13 @@
 # 🎮Repo-Custom-Spawngroup-for-Spawnconfig-Mod
 
 ## 📚 Contents
-- [🙏 Credits](#credits)
-- [📝 Information](#information)
-- [📦 Setup](#setup)
-- [❌ Removal](#removal)
-- [🌐 Global Changes](#global-changes)
-- [🔥 Challenge Events](#challenge-events)
-- [📅 Events](#events)
+- [🙏 Credits](#-credits)
+- [📝 Information](#-information)
+- [📦 Setup](#-setup)
+- [❌ Removal](#-removal)
+- [🌐 Global Changes](#-global-changes)
+- [🔥 Challenge Events](#-challenge-events)
+- [📅 Events](#-events)
 
 ## 🙏 Credits
 
