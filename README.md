@@ -35,7 +35,7 @@ This script is not recommended for beginners. It assumes the player is experienc
 🔧Modification:
 1. Adjusted enemy spawn rates.
 2. Added 3 new Challenge Events.
-3. Introduce 9 Events.
+3. Introduced 9 Events.
 
 ## 📦 Setup
 
