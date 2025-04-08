@@ -84,7 +84,7 @@ These additional mods help balance the increased difficulty introduced by this c
 
 📌 **Note:** **once a Challenge Event/ Event is triggered**, no other enemy types will spawn beyond the event specifications.
 
-## 🔥 Challenge Event
+## 🔥 Challenge Events
 
 ℹ️ *All Challenge Events will have a chance to trigger from level 12.*
 
