@@ -568,7 +568,7 @@
     "thisGroupOnly": false,
     "alterAmountChance": 1.0,
     "alterAmountMin": 1,
-    "alterAmountMax": 6
+    "alterAmountMax": 3
   },
   {
     "name": "Enemy - Slow Mouth",
@@ -590,8 +590,8 @@
   {
     "name": "Standard - All Enemies Present",
     "levelsCompletedCondition": false,
-    "levelsCompletedMax": 10,
-    "levelsCompletedMin": 0,
+    "levelsCompletedMax": 9999,
+    "levelsCompletedMin": 12,
     "runsPlayed": 0,
     "spawnObjects": [
       "Enemy - Head",
@@ -763,7 +763,7 @@
     "thisGroupOnly": true,
     "alterAmountChance": 1.0,
     "alterAmountMin": 1,
-    "alterAmountMax": 3
+    "alterAmountMax": 2
   },
   {
     "name": "Event - Lunar Eclipse",
